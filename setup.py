@@ -12,6 +12,6 @@ setup(
     include_package_data=True,
     install_requires=["PyGithub", "requests", "pendulum"],
     entry_points={
-        "console_scripts": ["gh2023 = github_daily.cli:main"],
+        "console_scripts": ["gh2024 = github_daily.cli:main"],
     },
 )
